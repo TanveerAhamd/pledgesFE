@@ -12,6 +12,9 @@ import Footer from '../components/common/Footer'
 import ExploreMore from '../components/core/HomePage/ExploreMore'
 import ReviewSlider from '../components/common/ReviewSlider'
 import Course_Slider from '../components/core/Catalog/Course_Slider'
+import {students} from '../../data/student-data'
+
+
 
 import { getCatalogPageData } from '../services/operations/pageAndComponentData'
 
@@ -33,6 +36,7 @@ import backgroundImg8 from '../assets/Images/random bg img/coding bg8.jpeg'
 import backgroundImg9 from '../assets/Images/random bg img/coding bg9.jpg'
 import backgroundImg10 from '../assets/Images/random bg img/coding bg10.jpg'
 import backgroundImg111 from '../assets/Images/random bg img/coding bg11.jpg'
+import StudentSlider from '../components/core/Catalog/Student_Slider';
 
 
 const randomImges = [
@@ -216,18 +220,20 @@ const Home = () => {
                     </div>
 
                     {/* course slider */}
-                    <div className='mx-auto box-content w-full max-w-maxContentTab px- py-12 lg:max-w-maxContent'>
+                    <div className='mx-auto box-content w-full max-w-maxContentTab px-py-12 lg:max-w-maxContent'>
                         <h2 className='text-white mb-6 text-2xl '>
-                            Popular Picks for You 🏆
+                            {/* Popular Picks for You 🏆 */}
+                          {students.length} -  Students of Batch-2025  🏆
                         </h2>
-                        <Course_Slider Courses={CatalogPageData?.selectedCategory?.courses} />
+                        {/* <Course_Slider Courses={CatalogPageData?.selectedCategory?.courses} /> */}
+                        <StudentSlider students={students}/>
                     </div>
-                    <div className=' mx-auto box-content w-full max-w-maxContentTab px- py-12 lg:max-w-maxContent'>
+                    {/* <div className=' mx-auto box-content w-full max-w-maxContentTab px- py-12 lg:max-w-maxContent'>
                         <h2 className='text-white mb-6 text-2xl '>
                             Top Enrollments Today 🔥
                         </h2>
                         <Course_Slider Courses={CatalogPageData?.mostSellingCourses} />
-                    </div>
+                    </div> */}
 
 
                     <ExploreMore />

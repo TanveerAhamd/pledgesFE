@@ -8,7 +8,7 @@ const tabsName = [
   "New to coding",
   "Most popular",
   "Skills paths",
-  "Career paths",
+  // "Career paths",
 ];
 
 

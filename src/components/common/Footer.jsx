@@ -10,17 +10,18 @@ import PledgesLogo from "../../assets/Logo/pledges-logo.png";
 // footer data
 const BottomFooter = ["Privacy Policy", "Cookie Policy", "Terms"];
 const Resources = [
-  "Articles",
-  "Blog",
-  "Chart Sheet",
-  "Code challenges",
+  // "Articles",
+  // "Blog",
+  // "Chart Sheet",
+  // "Code challenges",
   "Docs",
   "Projects",
   "Videos",
   "Workspaces",
 ];
 const Plans = ["Paid memberships", "For students", "Business solutions"];
-const Community = ["Forums", "Chapters", "Events"];
+// const Community = ["Forums", "Chapters", "Events"];
+const Community = ["Forums", "Events"];
 
 
 

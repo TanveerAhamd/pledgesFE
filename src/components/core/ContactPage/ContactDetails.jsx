@@ -13,15 +13,15 @@ const contactDetails = [
   {
     icon: "BiWorld",
     heading: "Visit us",
-    description: "Come and say hello at our office HQ.",
+    description: "Welcome To TICER, Pledges.inc",
     details:
-      "Akshya Nagar 1st Block 1st Cross, Rammurthy nagar, Bangalore-560016",
+      "Tareen Institute of Computer Education & Resource Center, Lodhran",
   },
   {
     icon: "IoCall",
     heading: "Call us",
-    description: "Mon - Fri From 8am to 5pm",
-    details: "+123 456 7869",
+    description: "Mon - Sat From 9am to 6pm",
+    details: "+92 3000 695646",
   },
 ]
 

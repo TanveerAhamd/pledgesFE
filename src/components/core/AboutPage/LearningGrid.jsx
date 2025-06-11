@@ -8,7 +8,7 @@ const LearningGridArray = [
     heading: "World-Class Learning for",
     highlightText: "Anyone, Anywhere",
     description:
-      "Pledges partners with more than 275+ leading universities and companies to bring flexible, affordable, job-relevant online learning to individuals and organizations worldwide.",
+      "Pledges partners with more than 5+ leading universities and companies to bring flexible, affordable, job-relevant online learning to individuals and organizations worldwide.",
     BtnText: "Learn More",
     BtnLink: "/",
   },
@@ -22,25 +22,25 @@ const LearningGridArray = [
     order: 2,
     heading: "Our Learning Methods",
     description:
-      "Pledges partners with more than 275+ leading universities and companies to bring",
+      "Pledges partners with more than 5+ leading universities and companies to bring",
   },
   {
     order: 3,
     heading: "Certification",
     description:
-      "Pledges partners with more than 275+ leading universities and companies to bring",
+      "Pledges partners with more than 5+ leading universities and companies to bring",
   },
   {
     order: 4,
     heading: `Rating "Auto-grading"`,
     description:
-      "Pledges partners with more than 275+ leading universities and companies to bring",
+      "Pledges partners with more than 5+ leading universities and companies to bring",
   },
   {
     order: 5,
     heading: "Ready to Work",
     description:
-      "Pledges partners with more than 275+ leading universities and companies to bring",
+      "Pledges partners with more than 5+ leading universities and companies to bring",
   },
 ];
 

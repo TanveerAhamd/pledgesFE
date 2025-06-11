@@ -83,12 +83,12 @@ const TimelineSection = () => {
                     <div className=' absolute bg-caribbeangreen-700 flex flex-row text-white uppercase py-7
                             left-[50%] translate-x-[-50%] translate-y-[-70%] rounded-3xl'>
                         <div className='flex flex-row gap-5 items-center border-r border-caribbeangreen-300 px-7'>
-                            <p className='text-2xl lg:text-3xl font-bold'>10</p>
+                            <p className='text-2xl lg:text-3xl font-bold'>2</p>
                             <p className='text-caribbeangreen-300 text-xs lg:text-sm'>Years of Experience</p>
                         </div>
 
                         <div className='flex gap-5 items-center px-7'>
-                            <p className='text-2xl lg:text-3xl font-bold'>250</p>
+                            <p className='text-2xl lg:text-3xl font-bold'>8+</p>
                             <p className='text-caribbeangreen-300 text-xs lg:text-sm'>TYpe of Courses</p>
                         </div>
 
