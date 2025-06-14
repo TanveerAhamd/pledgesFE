@@ -77,13 +77,13 @@ export const students = [
     description: "Frontend Developer student learning React.",
     rating: 4.5,
     image: "/studentsimages/noreenfatima.jpeg",
-    portfolio: "https://noreen-portfolio.com",
+    portfolio: "https://noreenfatima92.github.io/noreenportfolio/",
   },
   {
     name: "Batool Bibi",
     description: "Frontend Developer student learning React.",
     rating: 4.5,
-    image: "/studentsimages/batool.jpeg",
+    image: "/studentsimages/batool.jpg",
     portfolio: "https://batoolags.github.io/BatoolFolio/",
   },
   {
