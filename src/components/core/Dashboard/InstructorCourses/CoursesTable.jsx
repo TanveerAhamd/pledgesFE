@@ -157,7 +157,7 @@ export default function CoursesTable({ courses, setCourses, loading, setLoading 
 
                   {/* course duration */}
                   <Td className="text-sm font-medium text-richblack-100">2hr 30min</Td>
-                  <Td className="text-sm font-medium text-richblack-100">₹{course.price}</Td>
+                  <Td className="text-sm font-medium text-richblack-100">RS.{course.price}</Td>
 
                   <Td className="text-sm font-medium text-richblack-100 ">
                     {/* Edit button */}

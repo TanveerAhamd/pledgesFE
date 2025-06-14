@@ -61,7 +61,7 @@ export default function RenderCartCourses() {
               <span>Remove</span>
             </button>
             <p className="mb-6 text-3xl font-medium text-yellow-100">
-              ₹ {course?.price}
+              RS. {course?.price}
             </p>
           </div>
         </div>

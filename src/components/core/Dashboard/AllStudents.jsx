@@ -144,7 +144,7 @@ const AllStudents = () => {
                                                 {temp.courses.map((course) => (
                                                     <div className="text-white text-sm" key={course._id}>
                                                         <p>{course.courseName}</p>
-                                                        <p className="text-sm font-normal">Price: ₹{course.price}</p>
+                                                        <p className="text-sm font-normal">Price: RS.{course.price}</p>
                                                     </div>
                                                 ))}
                                             </div>
@@ -251,7 +251,7 @@ const AllStudents = () => {
         //                                     {temp.courses.map((course) => (
         //                                         <div className="text-white text-sm" key={course._id}>
         //                                             <p>{course.courseName}</p>
-        //                                             <p className="text-sm font-normal">Price: ₹{course.price}</p>
+        //                                             <p className="text-sm font-normal">Price: RS.{course.price}</p>
         //                                         </div>
         //                                     ))}
         //                                 </div>
